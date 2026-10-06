@@ -1,0 +1,45 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Test, coverage, and analysis caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.azure/
+*.pem
+*.key
+
+# Local data and runtime output; synthetic fixtures remain versionable
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "scenario_id": "SCENARIO-WO-104",
+  "scenario_as_of": "2026-10-06T14:00:00Z",
+  "synthetic": true,
+  "provenance": {"source": "synthetic_identity_fixture", "captured_at": "2026-10-06T14:00:00Z"},
+  "users": [
+    {"user_id": "planner_a", "role": "planner", "assigned_site_ids": ["SITE-A"]},
+    {"user_id": "technician_a", "role": "technician", "assigned_site_ids": ["SITE-A"]}
+  ]
+}

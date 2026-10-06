@@ -1,0 +1,38 @@
+{
+  "scenario_id": "SCENARIO-WO-104",
+  "scenario_as_of": "2026-10-06T14:00:00Z",
+  "synthetic": true,
+  "provenance": {"source": "mock_erp.work_orders", "captured_at": "2026-10-06T14:00:00Z"},
+  "work_orders": [
+    {
+      "work_order_id": "WO-104",
+      "site_id": "SITE-A",
+      "equipment_id": "PUMP-017",
+      "description": "Fictional seal replacement following a recorded leak observation",
+      "status": "awaiting_parts",
+      "status_recorded_at": "2026-10-06T14:00:00Z",
+      "required_parts": [{"part_id": "SEAL-220", "quantity": 2, "unit": "each", "inventory_record_id": "INV-A-SEAL-220"}],
+      "purchase_order_id": "PO-7001",
+      "procedure_id": "PROC-SEAL-001",
+      "procedure_version": "1.0",
+      "history_event_ids": ["EH-017-001", "EH-017-002"],
+      "planned_start_at": "2026-10-05T14:00:00Z",
+      "confirmed_rescheduled_start_at": null
+    },
+    {
+      "work_order_id": "WO-205",
+      "site_id": "SITE-B",
+      "equipment_id": "PUMP-028",
+      "description": "Fictional inspection; cross-site authorization fixture only",
+      "status": "open",
+      "status_recorded_at": "2026-10-06T14:00:00Z",
+      "required_parts": [],
+      "purchase_order_id": null,
+      "procedure_id": null,
+      "procedure_version": null,
+      "history_event_ids": [],
+      "planned_start_at": null,
+      "confirmed_rescheduled_start_at": null
+    }
+  ]
+}

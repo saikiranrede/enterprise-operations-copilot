@@ -1,0 +1,34 @@
+{
+  "scenario_id": "SCENARIO-WO-104",
+  "scenario_as_of": "2026-10-06T14:00:00Z",
+  "synthetic": true,
+  "provenance": {"source": "mock_erp.inventory", "captured_at": "2026-10-06T14:00:00Z"},
+  "inventory": [
+    {
+      "inventory_record_id": "INV-A-SEAL-220",
+      "site_id": "SITE-A",
+      "part_id": "SEAL-220",
+      "available_quantity": 0,
+      "unit": "each",
+      "observed_at": "2026-10-06T14:00:00Z",
+      "purchase_order_ids": ["PO-7001"]
+    }
+  ],
+  "purchase_orders": [
+    {
+      "purchase_order_id": "PO-7001",
+      "site_id": "SITE-A",
+      "part_id": "SEAL-220",
+      "ordered_quantity": 2,
+      "received_quantity": 0,
+      "unit": "each",
+      "related_work_order_id": "WO-104",
+      "expected_delivery_date": "2026-10-09",
+      "expected_delivery_date_basis": "Synthetic planning estimate recorded as of the scenario timestamp; not confirmed delivery or a supplier commitment",
+      "delivery_date_timezone": "America/Chicago",
+      "confirmed_delivery_at": null,
+      "allocation_confirmed": false,
+      "provenance": {"source": "mock_erp.purchase_orders", "captured_at": "2026-10-06T14:00:00Z"}
+    }
+  ]
+}
